@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+	<Documento ID="T34F4362">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>34</TipoDTE>
+				<Folio>4362</Folio>
+				<FchEmis>2020-11-09</FchEmis>
+				<TipoDespacho>1</TipoDespacho>
+				<IndServicio>3</IndServicio>
+				<TpoTranVenta>1</TpoTranVenta>
+				<FmaPago>2</FmaPago>
+				<MntPagos>
+					<FchPago>2020-12-09</FchPago>
+					<MntPago>1750000</MntPago>
+				</MntPagos>
+				<TermPagoGlosa>CREDITO 30 DIAS</TermPagoGlosa>
+				<FchVenc>2020-12-09</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>11111111-1</RUTEmisor>
+				<RznSoc>Inversiones y Asesorias Lomotoro Limitada</RznSoc>
+				<GiroEmis>Servcios Informáticos</GiroEmis>
+				<Acteco>523930</Acteco>
+				<Acteco>722000</Acteco>
+				<Acteco>724000</Acteco>
+				<Acteco>726000</Acteco>
+				<Sucursal>Providencia</Sucursal>
+				<DirOrigen>Av. Buenas Peras #5412</DirOrigen>
+				<CmnaOrigen>Providencia</CmnaOrigen>
+				<CiudadOrigen>Santiago</CiudadOrigen>
+				<CdgVendedor>VENDEDOR</CdgVendedor>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>76658481-0</RUTRecep>
+				<CdgIntRecep>76.658.481-0</CdgIntRecep>
+				<RznSocRecep>BLACKYSOFT SPA</RznSocRecep>
+				<GiroRecep>Actividades de consultoría de informática</GiroRecep>
+				<DirRecep>Constancio Vigil 545</DirRecep>
+				<CmnaRecep>Las Condes</CmnaRecep>
+				<CiudadRecep>SANTIAGO</CiudadRecep>
+				<DirPostal>Constancio Vigil 545</DirPostal>
+				<CmnaPostal>Las Condes</CmnaPostal>
+				<CiudadPostal>SANTIAGO</CiudadPostal>
+			</Receptor>
+
+			<Totales>
+				<MntExe>1750000</MntExe>
+				<MntTotal>1750000</MntTotal>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>001027</VlrCodigo>
+			</CdgItem>
+			<IndExe>1</IndExe>
+			<NmbItem>-</NmbItem>
+			<DscItem>Consultoría XYZ</DscItem>
+			<QtyItem>1.000000</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>1750000.000000</PrcItem>
+			<MontoItem>1750000</MontoItem>
+		</Detalle>
+		<Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>801</TpoDocRef>
+			<FolioRef>C-0137-20</FolioRef>
+			<FchRef>2020-11-06</FchRef>
+			<RazonRef>ORDEN DE COMPRA CLIENTE</RazonRef>
+		</Referencia>
+		<TED version="1.0">
+			<DD>
+				<RE>11111111-1</RE>
+				<TD>34</TD>
+				<F>4362</F>
+				<FE>2020-11-09</FE>
+				<RR>76658481-0</RR>
+				<RSR>BLACKYSOFT SPA</RSR>
+				<MNT>1750000</MNT>
+				<IT1>.</IT1>
+				<CAF version="1.0">
+					<DA>
+						<RE>11111111-1</RE>
+						<RS>Inversiones y Asesorias Lomotoro Limitada</RS>
+						<TD>34</TD>
+						<RNG>
+							<D>4351</D>
+							<H>4450</H>
+						</RNG>
+						<FA>2020-10-28</FA>
+						<RSAPK>
+							<M>nVn3xh68kQuo3ZXJIIItWGjUzjqx0wr7EdzDMVlHGuBADHFI959GymWiODae17HRv2pPJa9zBxLgEqdGRiiMLQ==</M>
+							<E>Aw==</E>
+						</RSAPK>
+						<IDK>300</IDK>
+					</DA>
+					<FRMA algoritmo="SHA1withRSA">KV/jWeRUeH4ziaVGqhmPwLHl4oCdGywoNoYYFliAslnWPw6LrNyYlkqQWP885L/KAw9p1eEeeaihDlEW+bzBfw==</FRMA>
+				</CAF>
+				<TSTED>2020-11-09T16:01:04</TSTED>
+			</DD>
+			<FRMT algoritmo="SHA1withRSA">OWQtRZ+C93UEynGjEzMjjdtCv+hQQ3BG7pZA5mJHeJnfIuyb96ryW+/XxPrue071J+abWgoqtCmEPhiZ2vTTjw==</FRMT>
+		</TED>
+		<TmstFirma>2020-11-09T16:00:54</TmstFirma>
+	</Documento>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<Reference URI="#T34F4362">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+				<DigestValue>Bj5f1xbZOtRJ9wu7s4ikIATrJxA=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>
+Xd4tv5qPBxirvTL7oaI+hxt2hCyVmKjecJCeDu+OwV+QVouKCppfWTbHPFA+Jjh1 WKj27mzRWE/eP24Zdw6ek5rxDHQAJ7FGpNKBBfakz1SgTVDF1ckncf/tCC38FDs+ ekMKt7gjSqXBiXm+5HkUoziDEKz6q6gsTx6k767rEnM=
+		</SignatureValue>
+		<KeyInfo>
+			<KeyValue>
+				<RSAKeyValue>
+					<Modulus>
+kwOuviV6f+bqDx+9BdSqBK05+RNG7qXFpo3w+PC9G75xnJDd4R4qVXuDyYmjiRFi TqPiyWM2UhTu6zbNKzldWBds8V//ZW/jB7D8GiM1Zl8LmN5AjshW2ffPQU0qFkL6 Aq3qq0V1JoRvMKMXKh2dgboy5cF/PzfkbnkD1c23UyM=
+					</Modulus>
+					<Exponent>AQAB</Exponent>
+				</RSAKeyValue>
+			</KeyValue>
+			<X509Data>
+				<X509Certificate>
+MIIGUDCCBTigAwIBAgIKO7zVYQAAAAxR5zANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xODEwMzAxMzUzMDVaFw0yMTEwMjkxMzUzMDVaMIHR
+MQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TyAxETAPBgNVBAcTCFNhbnRpYWdvMTUwMwYDVQQKEyxJbnZlcnNpb25lcyB5IEFz
+ZXNvcmlhcyBDbG91ZCBTb2x1dGlvbnMgTHRkYTEUMBIGA1UECxMLSW5mb3JtYXRp
+Y2ExGjAYBgNVBAMMEUZlbGl4ICBaaXJ1bG5payAqMSEwHwYJKoZIhvcNAQkBFhJs
+Z3V6bWFuQG5lY3RpYS5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJMD
+rr4len/m6g8fvQXUqgStOfkTRu6lxaaN8PjwvRu+cZyQ3eEeKlV7g8mJo4kRYk6j
+4sljNlIU7us2zSs5XVgXbPFf/2Vv4wew/BojNWZfC5jeQI7IVtn3z0FNKhZC+gKt
+6qtFdSaEbzCjFyodnYG6MuXBfz835G55A9XNt1MjAgMBAAGjggKpMIICpTCCAU8G
+A1UdIASCAUYwggFCMIIBPgYIKwYBBAHDUgUwggEwMC0GCCsGAQUFBwIBFiFodHRw
+Oi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgf4GCCsGAQUFBwICMIHxHoHu
+AEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYAbwByAG0AdQBs
+AGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBk
+AGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBj
+AGkAbwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBp
+AGMAYQBjAGkA8wBuAC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAd
+BgNVHQ4EFgQUIs477aUOnhmOnRr61/Qyn2OHYHIwCwYDVR0PBAQDAgTwMCMGA1Ud
+EQQcMBqgGAYIKwYBBAHBAQGgDBYKMTQ2NDEyNjItOTAfBgNVHSMEGDAWgBR44T6f
+0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUt
+Y2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAs
+MCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwPQYJ
+KwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7DxhgZrn
+FYav4BUCAWQCAQQwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01
+MA0GCSqGSIb3DQEBBQUAA4IBAQC46VCLpJN1801XFqNjF9BPJmD7f9j2bTxRwkpY
++OGiEvYQfZL1a7LUeIfez/srnkjkM3wvFJ/Dpn9oStDrkV2RrbvGhkbYMQkk+bh8
+pTweOXKfCafR4wNQDtUoRhWgz6jnH0WYF2mrXUCUr1f9GdMzbSUOnNBFH3JZRG70
+7gbYIxjfiUBV5wLd0Z9rrnZBD5sbmuk6RaRXNnRpiyw2KKN0r5STlMjKnx+cKykx
+VNyBhJtfhxcaAeELFTX4km8dcFbBHUssz1kViZf5qpRUgnvoRFnjV6/TyuD60nFX
+KZadBTf2qSYPfQ1tk8hTONU3DDYIyimgckQOGDTZ/nd2LHQI
+				</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</DTE>

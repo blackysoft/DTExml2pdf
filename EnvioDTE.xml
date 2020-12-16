@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<EnvioDTE xmlns="http://www.sii.cl/SiiDte"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd" version="1.0">
+    <SetDTE ID="E061437254">
+        <Caratula version="1.0">
+            <RutEmisor>11111111-1</RutEmisor>
+            <RutEnvia>17076541-1</RutEnvia>
+            <RutReceptor>76658481-0</RutReceptor>
+            <FchResol>2013-08-30</FchResol>
+            <NroResol>79</NroResol>
+            <TmstFirmaEnv>2020-10-06T04:33:15</TmstFirmaEnv>
+            <SubTotDTE>
+                <TpoDTE>52</TpoDTE>
+                <NroDTE>1</NroDTE>
+            </SubTotDTE>
+        </Caratula>
+        <DTE version="1.0">
+            <Documento ID="E000000002T052F0001546135">
+                <Encabezado>
+                    <IdDoc>
+                        <TipoDTE>52</TipoDTE>
+                        <Folio>1546135</Folio>
+                        <FchEmis>2020-09-21</FchEmis>
+                    </IdDoc>
+                    <Emisor>
+                        <RUTEmisor>11111111-1</RUTEmisor>
+                        <RznSoc>Inversiones y Asesorias Lomotoro Limitada</RznSoc>
+                        <GiroEmis>VENTA AL POR MAYOR DE OTROS PRODUCTOS N.C.P</GiroEmis>
+                        <Acteco>469000</Acteco>
+                        <Sucursal>Central</Sucursal>
+                        <CdgSIISucur>76530813</CdgSIISucur>
+                        <DirOrigen>AV. MANUEL RODRIGUEZ 730</DirOrigen>
+                        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+                        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    </Emisor>
+                    <Receptor>
+                        <RUTRecep>76658481-0</RUTRecep>
+                        <RznSocRecep>Blackysoft SPA</RznSocRecep>
+                        <Extranjero>
+                        </Extranjero>
+				        <GiroRecep>Actividades de consultoría de informática</GiroRecep>
+				        <DirRecep>Constancio Vigil 545</DirRecep>
+                        <CmnaRecep>Las Condes</CmnaRecep>
+                        <CiudadRecep>Santiago</CiudadRecep>
+                    </Receptor>
+                    <RUTSolicita>76658481-0</RUTSolicita>
+                    <Totales>
+                        <MntNeto>24826</MntNeto>
+                        <TasaIVA>19</TasaIVA>
+                        <IVA>4717</IVA>
+                        <ImptoReten>
+                            <TipoImp>26</TipoImp>
+                            <TasaImp>20.5</TasaImp>
+                            <MontoImp>469</MontoImp>
+                        </ImptoReten>
+                        <MntTotal>30012</MntTotal>
+                    </Totales>
+                </Encabezado>
+                <Detalle>
+                    <NroLinDet>1</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7802220071807</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>MALVA IRIS 250 GRS 77180</NmbItem>
+                    <PrcRef>1337</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>1337</PrcItem>
+                    <MontoItem>1337</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>2</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7613035950573</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>DOG CHOW ADULTO RAZAS PEQUENAS 1 5KG</NmbItem>
+                    <PrcRef>4866</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>4866</PrcItem>
+                    <MontoItem>4866</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>3</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7805000182236</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>ETERGENTE MULT LIQ SOFT ALOE BOT 3L OMO</NmbItem>
+                    <PrcRef>6742</PrcRef>
+                    <QtyItem>0.95</QtyItem>
+                    <PrcItem>6742</PrcItem>
+                    <MontoItem>6405</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>4</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7806500509448</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>PAPEL HIG UH MAX 8 ROLLOS 100 MT CONFORT</NmbItem>
+                    <PrcRef>4698</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>4698</PrcItem>
+                    <MontoItem>4698</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>5</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7802100106094</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>CERVE LEM STO LAT PACK 2 5 GL 6X350 CC</NmbItem>
+                    <PrcRef>2288</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>2288</PrcItem>
+                    <CodImpAdic>26</CodImpAdic>
+                    <MontoItem>2288</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>6</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7802920116006</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>QUESO RALLADO PARMESANO 80 G</NmbItem>
+                    <PrcRef>1118</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>1118</PrcItem>
+                    <MontoItem>1118</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>7</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7802920116006</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>QUESO RALLADO PARMESANO 80 G</NmbItem>
+                    <PrcRef>1118</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>1118</PrcItem>
+                    <MontoItem>1118</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>8</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7802920116006</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>QUESO RALLADO PARMESANO 80 G</NmbItem>
+                    <PrcRef>1118</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>1118</PrcItem>
+                    <MontoItem>1118</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>9</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7801505231912</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>AZUCAR 1 KL IANSA</NmbItem>
+                    <PrcRef>647</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>647</PrcItem>
+                    <MontoItem>647</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>10</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>7801505231912</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>AZUCAR 1 KL IANSA</NmbItem>
+                    <PrcRef>647</PrcRef>
+                    <QtyItem>1</QtyItem>
+                    <PrcItem>647</PrcItem>
+                    <MontoItem>647</MontoItem>
+                </Detalle>
+                <Detalle>
+                    <NroLinDet>11</NroLinDet>
+                    <CdgItem>
+                        <TpoCodigo>INT1</TpoCodigo>
+                        <VlrCodigo>8719200694149</VlrCodigo>
+                    </CdgItem>
+                    <NmbItem>MARGARINA DORINA POTE 500 GRS</NmbItem>
+                    <PrcRef>1146</PrcRef>
+                    <QtyItem>0.5</QtyItem>
+                    <PrcItem>1146</PrcItem>
+                    <MontoItem>584</MontoItem>
+                </Detalle>
+                <TED version="1.0">
+                    <DD>
+                        <RE>11111111-1</RE>
+                        <TD>52</TD>
+                        <F>1546135</F>
+                        <FE>2020-09-21</FE>
+                        <RR>76658481-0</RR>
+                        <RSR>Blackysoft SPA</RSR>
+                        <MNT>30012</MNT>
+                        <IT1>MALVA IRIS 250 GRS 77180</IT1>
+                        <CAF version="1.0">
+                            <DA>
+                                <RE>11111111-1</RE>
+                                <RS>Inversiones y Asesorias Lomotoro Limitada</RS>
+                                <TD>52</TD>
+                                <RNG>
+                                    <D>1521101</D>
+                                    <H>1571100</H>
+                                </RNG>
+                                <FA>2020-08-21</FA>
+                                <RSAPK>
+                                    <M>wJy2UxrUpnitu37eV8fgjhcIyCpp/qOhCm8wXF5VMzdSa7Bk1ZDLtyuZHuXQ+rVnnM1GkYfMc3JCZ7Gj7hQqsw==</M>
+                                    <E>Aw==</E>
+                                </RSAPK>
+                                <IDK>300</IDK>
+                            </DA>
+                            <FRMA algoritmo="SHA1withRSA">HDdqFWoBbO9yiosF9U7bCbj8hlbJn80BCk2BchuKTfT1FIVv6xGlnd0WkWlj8HTCZrEmSSub5M8jpvLDBWkcxQ==</FRMA>
+                        </CAF>
+                        <TSTED>2020-09-22T10:11:37</TSTED>
+                    </DD>
+                    <FRMT algoritmo="SHA1withRSA">eEh/L/2BAvV5W8Y5qXFJ+T/4u4/XENonwLvuPzJI3H7Z7Y83q/HX/fexgSyybPETX+a3C3cemq7r4MaaTBVr2A==</FRMT>
+                </TED>
+                <TmstFirma>2020-09-22T09:47:15</TmstFirma>
+            </Documento>
+            <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <SignedInfo>
+                    <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                    <Reference URI="#E000000002T052F0001546135">
+                        <Transforms>
+                            <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                        </Transforms>
+                        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                        <DigestValue>yIxGHrE0FKm4N/QAjtpIE++Va0Y=</DigestValue>
+                    </Reference>
+                </SignedInfo>
+                <SignatureValue>sBNliRAIlm7I/qx5aXORGD1SvOvZzmz9hPCiaSCPOUR2ZjZ6zUDMd74cBMy1Joz4tHn1R082Cl1sK9pth0LI2f0XLsuf+KJXteBXZaj5cuNuCD+WbEUTEbSEeuLYMcp2OeXFxN7ewmL2bFHc79u7SJjN9G2KukraZ0xJMLwapOJN8r9W/8tgnmx0hYGGtn8fpdElEKkdCBQQZnBQoc25S2TaGg8YXnYGeicyai8/R3ZT/k80yPiLn3PaEpMTo7H9toNQzv2EEGc/QEpeSfVSyXHW4qD9IcW8r67E5K/5Gv9vXkYQOr/GmJLk2LT+aUhRkInCejB0hToDSLGgh2U8jQ==</SignatureValue>
+                <KeyInfo>
+                    <KeyValue>
+                        <RSAKeyValue>
+                            <Modulus>
+xW2imC+8YuN9Yr4xtJcBMoW0TlditkOyWnOtY9+C17zYt7G/MMpzth2fdM3173GQ /71Q6FwIuIrVeAQX4+Xem8ur48zs0z4+0KXQX/KaDk645eoqoIUSy1bU10I7fpCS gKTNcpEY/z6lxDbSi/YmMsTjxJ16a/WNCecXu0C20yvIT1Jnra/EhZZ8FnRrak3k o9RoVIvt3uU97/nmS/yvHRokDANvT2AOoNAb+mb8JZmbOG4uq/MEkuOSEQVDtYGG HDlYgoCM7LxSCbV2Jonmixgy5REnD2Xho6Gu8fiAq+AkA6b4sZfmlJbBMC/QV+Ut dBnQxOzlxevVEvaBd9EVLQ==
+                            </Modulus>
+                            <Exponent>
+AQAB
+                            </Exponent>
+                        </RSAKeyValue>
+                    </KeyValue>
+                    <X509Data>
+                        <X509Certificate>
+MIIGeTCCBWGgAwIBAgIDAjagMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK OTY5MTkwNTAtODAeFw0xODA2MDYyMDM1MTZaFw0yMTA2MDYyMDM1MTZaMIGOMQsw CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSgwJgYDVQQDEx9Y SU1FTkEgQUxFSkFORFJBIEJBSEFNT05ERVMgUEFaMScwJQYJKoZIhvcNAQkBFhh4 YmFoYW1vbmRlc0BmYWxhYmVsbGEuY2wxEjAQBgNVBAUTCTk3OTExODktNDCCASIw DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMVtopgvvGLjfWK+MbSXATKFtE5X YrZDslpzrWPfgte82LexvzDKc7Ydn3TN9e9xkP+9UOhcCLiK1XgEF+Pl3pvLq+PM 7NM+PtCl0F/ymg5OuOXqKqCFEstW1NdCO36QkoCkzXKRGP8+pcQ20ov2JjLE48Sd emv1jQnnF7tAttMryE9SZ62vxIWWfBZ0a2pN5KPUaFSL7d7lPe/55kv8rx0aJAwD b09gDqDQG/pm/CWZmzhuLqvzBJLjkhEFQ7WBhhw5WIKAjOy8Ugm1diaJ5osYMuUR Jw9l4aOhrvH4gKvgJAOm+LGX5pSWwTAv0FflLXQZ0MTs5cXr1RL2gXfRFS0CAwEA AaOCAsQwggLAMB8GA1UdIwQYMBaAFGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1Ud DgQWBBTFYEZ4kYzllpc9Xq42LHe4C0LdUzALBgNVHQ8EBAMCBPAwHQYDVR0lBBYw FAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIFoDCB9QYDVR0g BIHtMIHqMIHnBggrBgEEAbVrAjCB2jAxBggrBgEFBQcCARYlaHR0cHM6Ly9hY2c0 LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBpAYIKwYBBQUHAgIwgZcwFhYPQWNl cHRhLmNvbSBTLkEuMAMCAQkafUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBl biBmb3JtYSBvbmxpbmUsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNh ZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3Mu MFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcI A6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20wYQYD VR0RBFowWKAXBggrBgEEAcEBAaALFgk5NzkxMTg5LTSgIwYIKwYBBQUHCAOgFzAV DAk5NzkxMTg5LTQGCCsGAQQBwQECgRh4YmFoYW1vbmRlc0BmYWxhYmVsbGEuY2ww RwYIKwYBBQUHAQEEOzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRh LmNvbS9hY2c0L29jc3AvQ2xhc2UyLUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBz Oi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvY3JsL0NsYXNlMi1HNC5jcmwwDQYJKoZI hvcNAQELBQADggEBAIAycbOcl3xCXMc8u0dGN1zHrMFEXDNuSLj9cEjjNJ9xSTbR Dy6eqAhmtmBkDRzXqGzG2TvEhMT3xhHgNHHwayUFAyYb1N563LoJJYShiFI2ExUb aB1V0hJz0hYRS0DbkcyiXVGkE2B80vNdXYdQVhVdzS7ZAn4hPrk1Jwikpy1Tnh8K v0x6EkDXRHFB0LD/6TULulqU8fd/XrrqPjrpueub3dBISHXvLJY/FV2B9rXsiBGu Nib6lOZ+Dvwgr7NfThf/srrGHk/dFlhiR/LvCCfC76eFgKYrHl40xe2vSgJdbIdw RmNi/hfx3LMPndqzJzLaS4QQRLUnG7/LE4ymFHc=
+                        </X509Certificate>
+                    </X509Data>
+                </KeyInfo>
+            </Signature>
+        </DTE>
+    </SetDTE>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <Reference URI="#E061437254">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <DigestValue>RF6yjepQnSJATukfAkP1gQIWX1Q=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>nSdAdcnY2XpIgqzh4duh/G4LmHCSNiZXxDsNtKceA3g8yOkSDp8jNg2QF8ukrZuYMz0AKdUlVcjfxmafQ/cQJsSTv6+qKyTSti4srXHUqUk0C+AQl601FjL559Ssx4WLYf8buE2ztmtjtX52g8ECm1YH88FZb9SSm2k8lo1VLxRYHDCy4e9MV6mz/TETPf/XkErZAmN5tnWPiLa4DWkeQbNgNwReOAnPJcm9ih5aYAxwrTP/dP0qNPm2JJziFO2EUBG2LxC1mUV6rFGvqLlO7VPX3iSrSvsFbCZTUuqw6gWYMsZcHCIvWHtvI2rNtdb8hnohvhutS244eJ7qqmveew==</SignatureValue>
+        <KeyInfo>
+            <KeyValue>
+                <RSAKeyValue>
+                    <Modulus>
+xW2imC+8YuN9Yr4xtJcBMoW0TlditkOyWnOtY9+C17zYt7G/MMpzth2fdM3173GQ /71Q6FwIuIrVeAQX4+Xem8ur48zs0z4+0KXQX/KaDk645eoqoIUSy1bU10I7fpCS gKTNcpEY/z6lxDbSi/YmMsTjxJ16a/WNCecXu0C20yvIT1Jnra/EhZZ8FnRrak3k o9RoVIvt3uU97/nmS/yvHRokDANvT2AOoNAb+mb8JZmbOG4uq/MEkuOSEQVDtYGG HDlYgoCM7LxSCbV2Jonmixgy5REnD2Xho6Gu8fiAq+AkA6b4sZfmlJbBMC/QV+Ut dBnQxOzlxevVEvaBd9EVLQ==
+                    </Modulus>
+                    <Exponent>
+AQAB
+                    </Exponent>
+                </RSAKeyValue>
+            </KeyValue>
+            <X509Data>
+                <X509Certificate>
+MIIGeTCCBWGgAwIBAgIDAjagMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK OTY5MTkwNTAtODAeFw0xODA2MDYyMDM1MTZaFw0yMTA2MDYyMDM1MTZaMIGOMQsw CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSgwJgYDVQQDEx9Y SU1FTkEgQUxFSkFORFJBIEJBSEFNT05ERVMgUEFaMScwJQYJKoZIhvcNAQkBFhh4 YmFoYW1vbmRlc0BmYWxhYmVsbGEuY2wxEjAQBgNVBAUTCTk3OTExODktNDCCASIw DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMVtopgvvGLjfWK+MbSXATKFtE5X YrZDslpzrWPfgte82LexvzDKc7Ydn3TN9e9xkP+9UOhcCLiK1XgEF+Pl3pvLq+PM 7NM+PtCl0F/ymg5OuOXqKqCFEstW1NdCO36QkoCkzXKRGP8+pcQ20ov2JjLE48Sd emv1jQnnF7tAttMryE9SZ62vxIWWfBZ0a2pN5KPUaFSL7d7lPe/55kv8rx0aJAwD b09gDqDQG/pm/CWZmzhuLqvzBJLjkhEFQ7WBhhw5WIKAjOy8Ugm1diaJ5osYMuUR Jw9l4aOhrvH4gKvgJAOm+LGX5pSWwTAv0FflLXQZ0MTs5cXr1RL2gXfRFS0CAwEA AaOCAsQwggLAMB8GA1UdIwQYMBaAFGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1Ud DgQWBBTFYEZ4kYzllpc9Xq42LHe4C0LdUzALBgNVHQ8EBAMCBPAwHQYDVR0lBBYw FAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIFoDCB9QYDVR0g BIHtMIHqMIHnBggrBgEEAbVrAjCB2jAxBggrBgEFBQcCARYlaHR0cHM6Ly9hY2c0 LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBpAYIKwYBBQUHAgIwgZcwFhYPQWNl cHRhLmNvbSBTLkEuMAMCAQkafUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBl biBmb3JtYSBvbmxpbmUsIHF1ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNh ZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFnb3MsIGNvbWVyY2lvIHkgb3Ryb3Mu MFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcI A6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20wYQYD VR0RBFowWKAXBggrBgEEAcEBAaALFgk5NzkxMTg5LTSgIwYIKwYBBQUHCAOgFzAV DAk5NzkxMTg5LTQGCCsGAQQBwQECgRh4YmFoYW1vbmRlc0BmYWxhYmVsbGEuY2ww RwYIKwYBBQUHAQEEOzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRh LmNvbS9hY2c0L29jc3AvQ2xhc2UyLUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBz Oi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvY3JsL0NsYXNlMi1HNC5jcmwwDQYJKoZI hvcNAQELBQADggEBAIAycbOcl3xCXMc8u0dGN1zHrMFEXDNuSLj9cEjjNJ9xSTbR Dy6eqAhmtmBkDRzXqGzG2TvEhMT3xhHgNHHwayUFAyYb1N563LoJJYShiFI2ExUb aB1V0hJz0hYRS0DbkcyiXVGkE2B80vNdXYdQVhVdzS7ZAn4hPrk1Jwikpy1Tnh8K v0x6EkDXRHFB0LD/6TULulqU8fd/XrrqPjrpueub3dBISHXvLJY/FV2B9rXsiBGu Nib6lOZ+Dvwgr7NfThf/srrGHk/dFlhiR/LvCCfC76eFgKYrHl40xe2vSgJdbIdw RmNi/hfx3LMPndqzJzLaS4QQRLUnG7/LE4ymFHc=
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+</EnvioDTE>
