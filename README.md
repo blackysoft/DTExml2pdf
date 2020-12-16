@@ -1,6 +1,9 @@
-# xml-pdf
+# DTExml2pdf
 Conversor XML a PDF para DTEs
 
-Al ejecutar  ```node xml.js``` se generará un archivo ***res.pdf*** en base a ***DTE.xml*** o ***EnvioDTE.xml*** dependiendo del flag en el código
+Al ejecutar  ```node xml.js``` se generará un archivo ***pdf*** en base a ***DTE.xml*** o ***EnvioDTE.xml*** dependiendo de lo establecido en el código
 
-La idea es después integrar esto en la API de GAEL via endpoint
+### Todo
+
+- [ ] Hacer un readme más bonito
+- [ ] Implementar capacidad para múltiples DTEs desde un mismo EnvioDTE.xml
