@@ -31,7 +31,7 @@ var options = {
 }
 
 //EnvioDTE.xml o DTE.xml
-const FileName = "EnvioDTE.xml";
+const FileName = "DTE.xml";
 
 //init parser
 var parser = new xml2js.Parser();
@@ -379,10 +379,12 @@ fs.readFile(__dirname + '/' + FileName, { encoding: 'UTF-8' }, function (err, da
                 var PrcItemX = 0;
             }
 
-            if (DocumentoNode.Encabezado[0].IdDoc[0].TipoDTE == 43) {
-                var codigoVal = "Documento " + x.CdgItem[0].VlrCodigo;
-            } else {
-                var codigoVal = x.CdgItem[0].VlrCodigo;
+            if(CodigoCol) {
+                if (DocumentoNode.Encabezado[0].IdDoc[0].TipoDTE == 43) {
+                    var codigoVal = "Documento " + x.CdgItem[0].VlrCodigo;
+                } else {
+                    var codigoVal = x.CdgItem[0].VlrCodigo;
+                }
             }
 
             tablaDetalle += "   <tr style=\'page-break-inside:avoid;\'>";
