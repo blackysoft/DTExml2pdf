@@ -90,36 +90,38 @@ fs.readFile(__dirname + '/' + FileName, { encoding: 'UTF-8' }, function (err, da
 
         if (nodoAduana.hasOwnProperty('Transporte')) {
 
-            if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('CodPtoEmbarque')) {
-                var CodPuertoEmbCol = "<span>COD PUERTO EMBARQUE:</span>";
-                var CodPuertoEmbVal = "<span>" + DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].CodPuertoEmb + "</span>";
-            } else {
-                var CodPuertoEmbCol = "<span>&nbsp;</span>";
-                var CodPuertoEmbVal = "<span>&nbsp;</span>";
-            }
-
-            if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('CodPtoDesemb')) {
-                var CodPtoDesembCol = "<span>COD PUERTO EMBARQUE:</span>";
-                var CodPtoDesembVal = "<span>" + DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].CodPtoDesemb + "</span>";
-            } else {
-                var CodPtoDesembCol = "<span>&nbsp;</span>";
-                var CodPtoDesembVal = "<span>&nbsp;</span>";
-            }
-
-            if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('CodModVenta')) {
-                var CodModVentaCol = "<span>MODALIDAD DE VENTA:</span>";
-                var CodModVentaVal = "<span>" + helpers.GetModVenta(parseInt(DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].CodModVenta)) + "</span>";
-            } else {
-                var CodModVentaCol = "<span>&nbsp;</span>";
-                var CodModVentaVal = "<span>&nbsp;</span>";
-            }
-
-            if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('TotBultos')) {
-                var TotBultosCol = "<span>TOTAL BULTOS:</span>";
-                var TotBultosVal = "<span>" + parseInt(DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].TotBultos) + "</span>";
-            } else {
-                var TotBultosCol = "<span>&nbsp;</span>";
-                var TotBultosVal = "<span>&nbsp;</span>";
+            if(nodoAduana.Transporte[0].hasOwnProperty('Aduana')) {
+                if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('CodPtoEmbarque')) {
+                    var CodPuertoEmbCol = "<span>COD PUERTO EMBARQUE:</span>";
+                    var CodPuertoEmbVal = "<span>" + DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].CodPuertoEmb + "</span>";
+                } else {
+                    var CodPuertoEmbCol = "<span>&nbsp;</span>";
+                    var CodPuertoEmbVal = "<span>&nbsp;</span>";
+                }
+    
+                if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('CodPtoDesemb')) {
+                    var CodPtoDesembCol = "<span>COD PUERTO EMBARQUE:</span>";
+                    var CodPtoDesembVal = "<span>" + DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].CodPtoDesemb + "</span>";
+                } else {
+                    var CodPtoDesembCol = "<span>&nbsp;</span>";
+                    var CodPtoDesembVal = "<span>&nbsp;</span>";
+                }
+    
+                if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('CodModVenta')) {
+                    var CodModVentaCol = "<span>MODALIDAD DE VENTA:</span>";
+                    var CodModVentaVal = "<span>" + helpers.GetModVenta(parseInt(DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].CodModVenta)) + "</span>";
+                } else {
+                    var CodModVentaCol = "<span>&nbsp;</span>";
+                    var CodModVentaVal = "<span>&nbsp;</span>";
+                }
+    
+                if (nodoAduana.Transporte[0].Aduana[0].hasOwnProperty('TotBultos')) {
+                    var TotBultosCol = "<span>TOTAL BULTOS:</span>";
+                    var TotBultosVal = "<span>" + parseInt(DocumentoNode.Encabezado[0].Transporte[0].Aduana[0].TotBultos) + "</span>";
+                } else {
+                    var TotBultosCol = "<span>&nbsp;</span>";
+                    var TotBultosVal = "<span>&nbsp;</span>";
+                }
             }
 
             if (nodoAduana.Transporte[0].DirDest) {
