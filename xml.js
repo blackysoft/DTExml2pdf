@@ -537,7 +537,7 @@ fs.readFile(__dirname + '/' + FileName, { encoding: 'UTF-8' }, function (err, da
 
         //  -------- CABECERA --------
         html += "        <div class='nopadding' style='float:left; width:90px; border-right:1px solid #000;'>";
-        html += "           <img src='https://cdn.gael.cl/logos/logo-sample.png' style='height: 80px; width: 80px;'/>";
+        html += "           <img src='https://cdn.gael.cloud/logos/logo-sample.png' style='height: 80px; width: 80px;'/>";
         html += "        </div>";
         html += "        <div class='col-md-5 nopadding'>";
         html += "            <div class='padd-left-xs align-top'>";
