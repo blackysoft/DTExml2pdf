@@ -317,7 +317,6 @@ fs.readFile(__dirname + '/' + FileName, { encoding: 'UTF-8' }, function (err, da
             tablaSucursal += "            <td style='border-left: 1px solid #000 !important;'> " + DirDestVal + " </td>";
             tablaSucursal += "        </tr>";
             tablaSucursal += "    </table>";
-            tablaSucursal += "</div>";
         }
 
         //tabla detalles
@@ -385,7 +384,11 @@ fs.readFile(__dirname + '/' + FileName, { encoding: 'UTF-8' }, function (err, da
                 if (DocumentoNode.Encabezado[0].IdDoc[0].TipoDTE == 43) {
                     var codigoVal = "Documento " + x.CdgItem[0].VlrCodigo;
                 } else {
-                    var codigoVal = x.CdgItem[0].VlrCodigo;
+                    if (x.hasOwnProperty('CdgItem')) {
+                        var codigoVal = x.CdgItem[0].VlrCodigo;
+                    } else {
+                        var codigoVal = "";
+                    }
                 }
             }
 
